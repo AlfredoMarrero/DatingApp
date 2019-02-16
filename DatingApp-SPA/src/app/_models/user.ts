@@ -11,7 +11,7 @@ lastActive: Date;
 photoUrl: string;
 city:  string;
 country: string;
-interests?: string;
+interest?: string;
 introduction?: string;
 lookingFor?: string;
 photos?: Photo[];
