@@ -21,8 +21,8 @@ namespace DatingApp.API.Controllers
         {
             _mapper = mapper;
             _repo = repo;
-
         }
+        
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
